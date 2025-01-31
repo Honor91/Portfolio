@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #121212;
+    color: #F6F6F6;
+    height: 100vh;
+}
+
+h1{
+    text-align: left;
+}
+
+.importance{
+    color: #22D4FD;
+}
+.personal{
+    color: #a070db;
+}
+.presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.presentacion__contenido{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 593px;
+    gap: 15px;
+    padding: 20px;
+}
+
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: "Krona One", san-serif;
+}
+.presentacion__contenido__texto{
+    font-family: "Montserrat" ,san-serif;    
+    font-size: 24;
+}
+.presentacion__enlaces{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 400px;
+}
+    
+.presentacion__enlaces_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    font-family: "Montserrat" ,san-serif;
+    font-weight: 500;
+    width: 378px;
+    color: #F6F6F6;
+    text-align: center;
+    padding: 9px;
+    margin: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid #22D4FD;
+
+}
+.presentacion__enlaces__subtitulo{
+    font-family: "Kroma One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.presentacion__enlaces_link:hover{
+    background-color: #272727;
+    scale: 1.05;
+}
+
+.footer{
+    background-color: #22D4FD;
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    padding: 24px;
+}
+.header{
+    display: flex;
+    padding: 15px 182px;
+}
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #22D4FD;
+    text-decoration: none;
+}
+.foto{
+    border: 1px solid #22D4FD;
+    border-radius: 16px;
+    padding: 10px;
+}
