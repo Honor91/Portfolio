@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* Colores */
+    --color-primario: #000000;
+    --color-secundario: #f6f6f6;
+    --color-terciario: #22D4FD;
+    /* Fuentes */
+    --fuente-monserrat: "Monserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif;
+}
