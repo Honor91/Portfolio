@@ -31,7 +31,6 @@ body{
 }
 .header__menu{
     display: flex;
-    flex-flow: row wrap;
     gap: 80px;
 }
 .header__menu__link{
